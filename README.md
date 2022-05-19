@@ -4,12 +4,13 @@ Steps:
   1. Extract match data for public games (Divine and Immortal)
   2. Extract match hdata for esports games
   3. Extract basic information of matches
-  * Teams wins/losses
-  * Players wins/losses
+  * Teams Wins/Losses
+  * Players Wins/Losses
   4. Extract complex information of matches
   * Hero combinations wins/losses
   * Hero mechanisms (mana cost, cooldowns, etc.)
   * Lane match-ups (allies, opponents)
+  * Player - Hero combinations (Wins/Losses/Matches)
   * Ward placements
   * Map movements
   * Item progression
