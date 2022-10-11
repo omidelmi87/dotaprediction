@@ -1,1 +1,4 @@
-
+second: 20
+minute: 250
+hour: 2000
+day: 10000
