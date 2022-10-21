@@ -37,3 +37,9 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Run tests
+      env:
+        API_TOKEN_STEAM: ${{ secrets.API_TOKEN_STEAM }}
+        API_TOKEN_STRATZ: ${{ secrets.API_TOKEN_STRATZ }}
+      run: |
+        nbdev_test_nbs
