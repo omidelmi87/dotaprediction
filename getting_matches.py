@@ -5,6 +5,8 @@ import time
 from datetime import date
 import datetime
 
+API_KEY = "HERE"
+
 with open("API_Token.txt") as API_Keys:
   API_KEY = API_keys.read()
   
